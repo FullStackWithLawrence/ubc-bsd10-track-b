@@ -4,7 +4,8 @@ Supplemental materials for UBC BSD10 Track B
 
 ## module 6 labs
 
-I. Prompt: "Is Lawrence McDaniel a good photographer?" (15 minutes)
+I. Understanding LLM out-of-the-box capabilities
+   Prompt: "Is Lawrence McDaniel a good photographer?" (15 minutes)
 
 - Google
 - ChatGPT
@@ -36,7 +37,8 @@ III. Getting setup with Python OpenAI PyPI (10 minutes)
  
 ## module 7 labs
 
-I. Prompt: "What's the weather in Vancouver right now?" (15 minutes)
+I. LLM Tool Call live example
+   Prompt: "What's the weather in Vancouver right now?" (15 minutes)
     docs: https://platform.openai.com/docs/guides/function-calling?api-mode=responses
     example: https://platform.smarter.sh/docs/developer/weather-function/
 
@@ -46,7 +48,8 @@ I. Prompt: "What's the weather in Vancouver right now?" (15 minutes)
   - https://openai.lawrencemcdaniel.com/			-> https://github.com/FullStackWithLawrence/aws-openai
   - https://platform.smarter.sh/workbench/example/chat/
 
-II. Prompt: "What analytics and accounting courses does Wharton offer?" (30 minutes)
+II. LLM RAG live example
+    Prompt: "What analytics and accounting courses does Wharton offer?" (30 minutes)
 
 - Google
   - ChatGPT
