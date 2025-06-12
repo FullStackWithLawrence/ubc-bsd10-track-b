@@ -4,7 +4,18 @@ Supplemental materials for UBC BSD10 Track B
 
 ## module 6 labs
 
-I. Understanding LLM out-of-the-box capabilities
+I. Getting setup with api access (15 minutes)
+
+- https://platform.openai.com/settings/organization/api-keys
+- testing with curl
+- setting up Postman
+  - base url
+  - required headers
+  - body
+  - handling sensitive data
+  - trouble shooting
+
+II. Understanding LLM out-of-the-box capabilities
    Prompt: "Is Lawrence McDaniel a good photographer?" (15 minutes)
 
 - Google
@@ -15,17 +26,6 @@ I. Understanding LLM out-of-the-box capabilities
   - streaming and other UX improvements
   - tool calling
   - ChatGPT's back door web search
-
-II. Getting setup with api access (15 minutes)
-
-- https://platform.openai.com/settings/organization/api-keys
-- testing with curl
-- setting up Postman
-  - base url
-  - required headers
-  - body
-  - handling sensitive data
-  - trouble shooting
 
 III. Getting setup with Python OpenAI PyPI (10 minutes)
 

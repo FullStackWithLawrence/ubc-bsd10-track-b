@@ -1,5 +1,7 @@
 
 
+curl --location 'https://www.google.com/'
+
 
 curl --location 'https://api.openai.com/v1/chat/completions' \
 --header 'Authorization: Bearer sk-proj-<-- SECRET TOKEN -->' \
@@ -14,3 +16,4 @@ curl --location 'https://api.openai.com/v1/chat/completions' \
         }
     ]
 }'
+
