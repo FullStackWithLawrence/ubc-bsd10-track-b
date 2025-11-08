@@ -1,23 +1,24 @@
 SHELL := /bin/bash
-include .env
-export PATH := /usr/local/bin:$(PATH)
-export
+REPO_NAME := agentic-ai-workflow
 
 ifeq ($(OS),Windows_NT)
-    PYTHON := python.exe
-    ACTIVATE_VENV := venv\Scripts\activate
+	PYTHON = python.exe
+	ACTIVATE_VENV = venv\Scripts\activate
 else
-    PYTHON := python3.12
-    ACTIVATE_VENV := source venv/bin/activate
+	PYTHON = python3.13
+	ACTIVATE_VENV = source venv/bin/activate
 endif
-PIP := $(PYTHON) -m pip
+PIP = $(PYTHON) -m pip
 
-ifneq ("$(wildcard .env)","")
-else
-    $(shell cp ./doc/example-dot-env .env)
-endif
+-include .env
 
 .PHONY: check-python init
+
+# Default target executed when no arguments are given to make.
+all: help
+
+analyze:
+	cloc . --exclude-ext=svg,json,zip --vcs=git
 
 # ---------------------------------------------------------
 # Python
